@@ -2,17 +2,16 @@
 # Brief review of the Rpackage `magick`
 
 ### Package title
-Magick
+magick
 
 ### Location
-CRAN: `install.packages("magick")`
-GitHub (for development): https://github.com/ropensci/magick
+CRAN: `install.packages("magick")` also on GitHub (for development): https://github.com/ropensci/magick
 
 ### Vignette(s)
-The package has a vigniette that quickly and intuitively demostrates the basic functionality of the package. 
+The package has a vigniette that quickly, intuitively, and with a bit of humor, demostrates the basic functionality of the package. 
 
 ### Application(s)
-Images of all types can be easily cropped, combined, and edited within R. 
+Images of all types can be easily cropped, combined, and edited within R. Can also be used to construct and deconstruct gifs.
 
 ### Review
 I discovered `magick` when I was unable to use another favorite package (`patchwork`) to compile a multi-panel plot. In mycase, `patchwork` was unable to ternary diagrams produced from the package ggtern because the usual x-y dimentions of the image objects are lost. I've used `magick` to attach a legend in the exact spot I wanted it a three panel plot that shared a legend. 
