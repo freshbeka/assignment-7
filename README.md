@@ -9,6 +9,7 @@ CRAN: `install.packages("magick")` also on GitHub (for development): https://git
 
 ### Vignette(s)
 The package has a vigniette that quickly, intuitively, and with a bit of humor, demostrates the basic functionality of the package. 
+https://cran.r-project.org/web/packages/magick/vignettes/intro.html
 
 ### Application(s)
 Images of all types can be easily cropped, combined, and edited within R. Can also be used to construct and deconstruct gifs.
